@@ -105,7 +105,7 @@ namespace CHW1.Assets
 
                 money.Amount -= count;
             }
-
+ 
             if (Data.UserMoney > 0)
                 throw new ApplicationException("Пожалуйста, выберите еще товар - сдачи нет");
         }
