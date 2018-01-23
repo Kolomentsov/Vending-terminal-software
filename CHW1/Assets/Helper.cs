@@ -13,6 +13,7 @@ namespace CHW1.Assets
 
         internal void InitApp()
         {
+
             if (IsDataFileExist())
                 LoadDatum();
             else
