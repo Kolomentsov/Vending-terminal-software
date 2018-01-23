@@ -77,6 +77,7 @@ namespace CHW1.Assets
         {
             var item = Data.Items.FirstOrDefault(x => x.Id == itemId);
 
+
             if (item == null)
                 throw new ApplicationException($"Не найден товар с ID {itemId}");
 
